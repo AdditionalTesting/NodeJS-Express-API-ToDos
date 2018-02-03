@@ -1,9 +1,20 @@
 <head>
     <link rel="stylesheet" href="app.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>This is the index page</h1>
+    <header>
+        <h1>ToDo <span>List</span></h1>
+        <h2>A simple todo list app built with Node.js and Express</h2>
+    </header>
+    
+    <section class="form">
+        <input type="text" id="todoInput" placeholder="Input task here">
+    </section>
+
+    <ul class="list"></ul>
 
     <script type="text/javascript" src="app.js"></script>
 </body>
