@@ -8,8 +8,8 @@ $(document).ready(function(){
         }
     });
 
-    $('ul').on('click', 'li', function(){
-        updateTodo($(this);)
+    $('.list').on('click', 'li', function(){
+        updateTodo($(this));
     })
 
     $('.list').on('click', 'span', function(e){
